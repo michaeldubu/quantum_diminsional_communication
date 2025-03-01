@@ -1,4 +1,4 @@
-"""
+
 import numpy as np
 import torch
 import torch.nn.functional as F
@@ -1713,4 +1713,3 @@ quantum:
   entanglement_threshold: 0.98  # Minimum compatibility for entanglement
   non_linear_mixing: true  # Enable non-linear field mixing
   phi_resonance: true      # Use golden ratio (phi) for resonance calculations
-"""
