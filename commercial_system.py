@@ -14,10 +14,10 @@ import time
 
 # License Tiers
 class LicenseTier(Enum):
-    BASIC = "QUANTUM_BASIC"          # $10k/month
-    PROFESSIONAL = "QUANTUM_PRO"      # $50k/month
-    ENTERPRISE = "QUANTUM_ENTERPRISE" # $250k/month
-    UNLIMITED = "QUANTUM_UNLIMITED"   # $1M/month
+    BASIC = "SAM_QUANTUM_BASIC"          # $10k/month
+    PROFESSIONAL = "SAM_QUANTUM_PRO"      # $50k/month
+    ENTERPRISE = "SAM_QUANTUM_ENTERPRISE" # $250k/month
+    UNLIMITED = "SAM_QUANTUM_UNLIMITED"   # $1M/month /// TO-DO: look into possibly charging 10 million per 
 
 @dataclass
 class CommercialLicense:
